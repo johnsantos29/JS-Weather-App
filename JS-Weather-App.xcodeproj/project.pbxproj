@@ -11,6 +11,15 @@
 		4563577929E28601005C0C26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563577829E28601005C0C26 /* ContentView.swift */; };
 		4563577B29E28602005C0C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4563577A29E28602005C0C26 /* Assets.xcassets */; };
 		4563577E29E28602005C0C26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4563577D29E28602005C0C26 /* Preview Assets.xcassets */; };
+		4563578629E287F3005C0C26 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563578529E287F3005C0C26 /* Constants.swift */; };
+		4563578929E29C03005C0C26 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4563578829E29C03005C0C26 /* Montserrat-VariableFont_wght.ttf */; };
+		4563578C29E29FCF005C0C26 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563578B29E29FCF005C0C26 /* WeatherView.swift */; };
+		4563578E29E2A42F005C0C26 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4563578D29E2A42F005C0C26 /* Montserrat-ExtraBold.ttf */; };
+		4563579029E2A4E7005C0C26 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4563578F29E2A4E7005C0C26 /* Montserrat-SemiBold.ttf */; };
+		4563579329E2AD11005C0C26 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563579229E2AD11005C0C26 /* WeatherData.swift */; };
+		4563579529E2AF31005C0C26 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563579429E2AF31005C0C26 /* WeatherManager.swift */; };
+		4563579729E2C67D005C0C26 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563579629E2C67D005C0C26 /* WeatherModel.swift */; };
+		4563579A29E2CB1B005C0C26 /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4563579929E2CB1B005C0C26 /* LocationDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,16 @@
 		4563577829E28601005C0C26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4563577A29E28602005C0C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4563577D29E28602005C0C26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4563578529E287F3005C0C26 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4563578829E29C03005C0C26 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		4563578A29E29C28005C0C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4563578B29E29FCF005C0C26 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		4563578D29E2A42F005C0C26 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4563578F29E2A4E7005C0C26 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		4563579229E2AD11005C0C26 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		4563579429E2AF31005C0C26 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		4563579629E2C67D005C0C26 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		4563579929E2CB1B005C0C26 /* LocationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +70,14 @@
 		4563577529E28601005C0C26 /* JS-Weather-App */ = {
 			isa = PBXGroup;
 			children = (
+				4563579129E2ACFE005C0C26 /* Models */,
+				4563578A29E29C28005C0C26 /* Info.plist */,
+				4563578729E29BF0005C0C26 /* fonts */,
 				4563577629E28601005C0C26 /* JS_Weather_AppApp.swift */,
-				4563577829E28601005C0C26 /* ContentView.swift */,
+				4563578429E28610005C0C26 /* Views */,
 				4563577A29E28602005C0C26 /* Assets.xcassets */,
 				4563577C29E28602005C0C26 /* Preview Content */,
+				4563578529E287F3005C0C26 /* Constants.swift */,
 			);
 			path = "JS-Weather-App";
 			sourceTree = "<group>";
@@ -65,6 +88,36 @@
 				4563577D29E28602005C0C26 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4563578429E28610005C0C26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4563577829E28601005C0C26 /* ContentView.swift */,
+				4563578B29E29FCF005C0C26 /* WeatherView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4563578729E29BF0005C0C26 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4563578829E29C03005C0C26 /* Montserrat-VariableFont_wght.ttf */,
+				4563578D29E2A42F005C0C26 /* Montserrat-ExtraBold.ttf */,
+				4563578F29E2A4E7005C0C26 /* Montserrat-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		4563579129E2ACFE005C0C26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4563579429E2AF31005C0C26 /* WeatherManager.swift */,
+				4563579229E2AD11005C0C26 /* WeatherData.swift */,
+				4563579629E2C67D005C0C26 /* WeatherModel.swift */,
+				4563579929E2CB1B005C0C26 /* LocationDataManager.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4563577E29E28602005C0C26 /* Preview Assets.xcassets in Resources */,
+				4563578E29E2A42F005C0C26 /* Montserrat-ExtraBold.ttf in Resources */,
+				4563578929E29C03005C0C26 /* Montserrat-VariableFont_wght.ttf in Resources */,
 				4563577B29E28602005C0C26 /* Assets.xcassets in Resources */,
+				4563579029E2A4E7005C0C26 /* Montserrat-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4563579529E2AF31005C0C26 /* WeatherManager.swift in Sources */,
 				4563577929E28601005C0C26 /* ContentView.swift in Sources */,
+				4563579A29E2CB1B005C0C26 /* LocationDataManager.swift in Sources */,
+				4563579329E2AD11005C0C26 /* WeatherData.swift in Sources */,
+				4563579729E2C67D005C0C26 /* WeatherModel.swift in Sources */,
 				4563577729E28601005C0C26 /* JS_Weather_AppApp.swift in Sources */,
+				4563578629E287F3005C0C26 /* Constants.swift in Sources */,
+				4563578C29E29FCF005C0C26 /* WeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +331,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"JS-Weather-App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JS-Weather-App/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need the location to get the weather info.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,11 +361,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"JS-Weather-App/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JS-Weather-App/Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need the location to get the weather info.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
