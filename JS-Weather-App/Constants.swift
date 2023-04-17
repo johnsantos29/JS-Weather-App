@@ -25,8 +25,7 @@ struct K {
     }
 
     enum OpenWeather {
-        // TODO: replace API Key
-        static let baseUrl = "https://api.openweathermap.org/data/2.5/weather?&appid=80b1020cc854a9c31d849bbfb357ea19&units=metric"
+        static let baseUrl = "https://api.openweathermap.org/data/2.5/weather?&appid={apiKey}&units=metric"
 
         static func getWeatherByCityUrl(_ cityName: String) -> String {
             let encodedCityName = cityName.replacingOccurrences(of: " ", with: "%20")
